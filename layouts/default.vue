@@ -31,7 +31,9 @@
     </v-app-bar>
     <v-main class="whitenize">
       <v-container>
-        <nuxt />
+        <transition name="page">
+          <nuxt />
+        </transition>
       </v-container>
     </v-main>
   </v-app>
@@ -52,8 +54,13 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          title: 'Carousels',
+          to: '/Carousels',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'News',
+          to: '/News',
         },
       ],
       miniVariant: false,

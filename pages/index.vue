@@ -1,18 +1,81 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12">
-      <v-carousel cycle hide-delimiters :show-arrows="false" height="auto">
-        <v-carousel-item
-          v-for="(item, i) in items"
-          :key="i"
-          :src="item.src"
-          reverse-transition="fade-transition"
-          transition="fade-transition"
+  <v-container>
+    <v-row justify="center" align-content="center" style="height: 350px">
+      <v-col cols="12" justify="center" class="text-center">
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="primary"
+          to="/News"
+          elevation="10"
         >
-        </v-carousel-item>
-      </v-carousel>
-    </v-col>
-  </v-row>
+          News
+        </v-btn>
+
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="pink"
+          to="/Carousels"
+          elevation="10"
+        >
+          Slides
+        </v-btn>
+
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="indigo"
+          to="/News"
+          elevation="10"
+        >
+          Friend
+        </v-btn>
+
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="teal"
+          to="/News"
+          elevation="10"
+        >
+          Chat
+        </v-btn>
+
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="cyan"
+          to="/News"
+          elevation="10"
+        >
+          Hint
+        </v-btn>
+
+        <v-btn
+          class="mx-4"
+          fab
+          dark
+          x-large
+          color="purple"
+          to="/News"
+          elevation="10"
+        >
+          video
+        </v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
