@@ -48,22 +48,22 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
+          icon: 'mdi-home',
+          title: 'Home',
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Carousels',
-          to: '/Carousels',
-        },
-        {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-information',
           title: 'News',
           to: '/News',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-camera-burst',
+          title: 'Carousels',
+          to: '/Carousels',
+        },
+        {
+          icon: 'mdi-account-multiple',
           title: 'Friend',
           to: '/Friend',
         },

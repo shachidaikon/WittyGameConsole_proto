@@ -1,5 +1,5 @@
 <template>
-  <v-card max-width="450" class="mx-auto">
+  <v-card max-width="900" class="mx-auto">
     <v-list three-line>
       <template v-for="(item, index) in items">
         <v-subheader

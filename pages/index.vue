@@ -19,7 +19,7 @@
           to="/News"
           elevation="10"
         >
-          News
+          <v-icon>mdi-information</v-icon>
         </v-btn>
 
         <v-btn
@@ -31,7 +31,7 @@
           to="/Carousels"
           elevation="10"
         >
-          Slides
+          <v-icon>mdi-camera-burst</v-icon>
         </v-btn>
 
         <v-btn
@@ -43,7 +43,7 @@
           to="/Friend"
           elevation="10"
         >
-          Friend
+          <v-icon>mdi-account-multiple</v-icon>
         </v-btn>
 
         <v-btn
@@ -55,7 +55,7 @@
           to="/News"
           elevation="10"
         >
-          Chat
+          <v-icon>mdi-chat-processing</v-icon>
         </v-btn>
 
         <v-btn
@@ -64,10 +64,10 @@
           dark
           x-large
           color="cyan"
-          href="https://www.google.com/?hl=ja"
+          href="https://www.youtube.com/?gl=JP&tab=r1"
           elevation="10"
         >
-          Hint
+          <v-icon>mdi-youtube</v-icon>
         </v-btn>
 
         <v-btn
@@ -76,10 +76,10 @@
           dark
           x-large
           color="purple"
-          href="https://meet.google.com/kcp-wcot-zgf"
+          href="https://meet.google.com/ihb-qpbm-ane"
           elevation="10"
         >
-          video
+          <v-icon>mdi-video</v-icon>
         </v-btn>
       </v-col>
     </v-row>
