@@ -1,6 +1,14 @@
 <template>
   <v-container>
     <v-row justify="center" align-content="center" style="height: 350px">
+      <v-col
+        cols="12"
+        justify="center"
+        class="text-center"
+        style="color: rgb(116, 166, 76); font-weight: bold; font-size: 80px"
+      >
+        Witty Game Console
+      </v-col>
       <v-col cols="12" justify="center" class="text-center">
         <v-btn
           class="mx-4"
