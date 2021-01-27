@@ -52,7 +52,7 @@
           dark
           x-large
           color="teal"
-          to="/News"
+          href="https://skillupchat.web.app/"
           elevation="10"
         >
           <v-icon>mdi-chat-processing</v-icon>
