@@ -32,7 +32,7 @@
           dark
           x-large
           color="indigo"
-          to="/News"
+          to="/Friend"
           elevation="10"
         >
           Friend
@@ -56,7 +56,7 @@
           dark
           x-large
           color="cyan"
-          to="/News"
+          href="https://www.google.com/?hl=ja"
           elevation="10"
         >
           Hint
@@ -68,7 +68,7 @@
           dark
           x-large
           color="purple"
-          to="/News"
+          href="https://meet.google.com/kcp-wcot-zgf"
           elevation="10"
         >
           video

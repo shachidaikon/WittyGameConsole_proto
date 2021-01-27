@@ -62,6 +62,11 @@ export default {
           title: 'News',
           to: '/News',
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Friend',
+          to: '/Friend',
+        },
       ],
       miniVariant: false,
       title: 'Witty Game Console',
